@@ -1,0 +1,27 @@
+{
+  "name": "queued.js",
+  "version": "1.0.0",
+  "description": "Queue based on stacked.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "build": "tsc src/index.ts && mv src/index.js ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/stacked-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "persistent"
+  ],
+  "author": "Jefrey S. Santos <jefrey.santos@capitual.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/stacked-queue/issues"
+  },
+  "homepage": "https://github.com/jesobreira/stacked-queue#readme",
+  "dependencies": {
+    "stacked.js": "^1.0.0"
+  }
+}
